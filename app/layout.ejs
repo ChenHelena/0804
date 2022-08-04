@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
   <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 
 <body>
@@ -69,6 +71,14 @@
   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
 </body>
-
+<script>
+  $(document).ready(function(){
+	$(".fa-bars").click(function(){
+		$(".header-body").toggle();
+	});
+});
+</script>
 </html>
