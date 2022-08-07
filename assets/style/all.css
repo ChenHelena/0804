@@ -126,9 +126,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.white {
-  color: #fff; }
-
 *,
 *::before,
 *::after {
@@ -171,6 +168,9 @@ img {
   max-width: 100%;
   height: auto;
   display: block; }
+
+.white {
+  color: #fff; }
 
 .container {
   max-width: 1320px;
