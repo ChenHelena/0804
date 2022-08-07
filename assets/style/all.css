@@ -136,7 +136,8 @@ table {
           box-sizing: border-box; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  display: block; }
 
 h1 {
   font-size: 64px;
@@ -147,10 +148,18 @@ h2 {
   line-height: 72px; }
 
 h3 {
+  font-size: 42px;
+  line-height: 63px; }
+
+h4 {
   font-size: 36px;
   line-height: 54px; }
 
-h4 {
+h5 {
+  font-size: 32px;
+  line-height: 48px; }
+
+h6 {
   font-size: 24px;
   line-height: 36px; }
 
@@ -302,6 +311,9 @@ body {
   margin-bottom: 8px;
   text-align: center;
   color: #650300; }
+
+.service-body h6 {
+  text-align: center; }
 
 .service-body {
   display: -webkit-box;
@@ -657,5 +669,139 @@ body {
   .header .container .fa-bars {
     display: block;
     font-size: 30px; } }
+
+.subtitle .container {
+  padding: 0; }
+
+.subtitle .subtitle-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .subtitle .subtitle-text li {
+    width: 33.333%; }
+  .subtitle .subtitle-text a {
+    font-size: 32px;
+    line-height: 48px;
+    border: 1px solid #DCDCDC;
+    border-bottom: 8px solid transparent;
+    color: #000;
+    text-align: center;
+    padding: 24px 0; }
+  .subtitle .subtitle-text a:hover {
+    color: #AA0601;
+    border-bottom: 8px solid #AA0601; }
+
+@media (max-width: 992px) {
+  .subtitle .subtitle-text a {
+    font-size: 24px;
+    line-height: 36px; } }
+
+@media (max-width: 767px) {
+  .subtitle .subtitle-text a {
+    font-size: 16px;
+    line-height: 24px; } }
+
+.product-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .product-image img {
+    width: 50%; }
+  .product-image .product-header-sm-1,
+  .product-image .product-header-sm-2 {
+    display: none; }
+
+@media (max-width: 992px) {
+  .product-image .product-header-1,
+  .product-image .product-header-2 {
+    display: none; }
+  .product-image .product-header-sm-1,
+  .product-image .product-header-sm-2 {
+    display: block; } }
+
+.product-content .product-title {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 32px; }
+
+.product-content .product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .product-content .product-list .product-item {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 80px; }
+  .product-content .product-list .product-color {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .product-content .product-list .square {
+    width: 24px;
+    height: 24px;
+    background-color: #5F3E2D;
+    border-radius: 4px;
+    margin-right: 8px; }
+  .product-content .product-list .square2 {
+    width: 24px;
+    height: 24px;
+    background-color: #B75929;
+    border-radius: 4px; }
+  .product-content .product-list .product-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+@media (max-width: 992px) {
+  .product-content .product-list .product-item {
+    width: 50%; }
+  .product-content .product-title h3, .product-content .product-title h5 {
+    font-size: 24px;
+    line-height: 36px; } }
+
+@media (max-width: 767px) {
+  .product-content .product-list .product-item {
+    width: 100%; }
+  .product-content .product-title h3, .product-content .product-title h5 {
+    font-size: 24px;
+    line-height: 36px; } }
+
+.product-pegination {
+  margin-bottom: 80px; }
+  .product-pegination .pegination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .product-pegination .pegination a {
+      color: #555555;
+      padding: 12px 16px;
+      border: 1px solid #555555;
+      font-size: 18px;
+      line-height: 27px; }
+    .product-pegination .pegination .page-item a:hover {
+      color: #fff;
+      background-color: #000; }
+    .product-pegination .pegination .page-item-2 a {
+      padding: 11px 12px;
+      font-size: 19px;
+      line-height: 29px;
+      background-color: #F2F2F2; }
+
+@media (max-width: 767px) {
+  .product-pegination .pegination .page-item a {
+    font-size: 16px;
+    line-height: 24px; }
+  .product-pegination .pegination .page-item-2 a {
+    font-size: 16px;
+    line-height: 26px; } }
 
 /*# sourceMappingURL=all.css.map */
